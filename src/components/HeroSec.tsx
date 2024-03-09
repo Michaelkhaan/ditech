@@ -30,7 +30,6 @@ function HeroSec() {
           venenatis tortor congue et. Ut et dolor massa.
         </p>
         <Button type="button" title="Contact Us" className="mt-8" />
-        {/* <Button type="button" title="Get Started" className="" /> */}
       </div>
     </div>
   );
