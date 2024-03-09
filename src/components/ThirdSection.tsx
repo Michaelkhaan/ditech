@@ -25,7 +25,7 @@ const ThirdSection = () => {
           </p>
         </div>
         <div className="w-1/2">
-          <h1 className="text-center">19</h1>
+          <h1 className="text-center text-xl">19</h1>
           <p>Years of Experiences</p>
         </div>
       </div>
