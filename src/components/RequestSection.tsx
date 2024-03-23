@@ -18,15 +18,7 @@ function RequestSection() {
     },
   ];
   return (
-    <div
-      className="w-full absolute bg-[#010a0a] pb-6 flex justify-between items-center"
-      // style={{
-      //   backgroundImage: "url('/Overlay4.png')",
-      //   backgroundSize: "cover",
-      //   width: "50%",
-      //   height: "50%",
-      // }}
-    >
+    <div className="w-full bg-[#010a0a] pb-6 flex justify-between items-center">
       <div className="w-full flex justify-between items-center px-10">
         <div className="w-1/2">
           <h1 className="text-white text-5xl font-bold w-[600px] leading-[70px]">

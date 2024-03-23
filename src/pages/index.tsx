@@ -9,6 +9,7 @@ import ChooseUS from "@/components/ChooseUS";
 import CaseStudies from "@/components/CaseStudies";
 import Section from "@/components/Section";
 import RequestSection from "@/components/RequestSection";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -41,7 +42,7 @@ export default function Home() {
   ];
   return (
     <>
-      <img className="fixed" src="/Background-21.png " alt="" />
+      <img className="fixed -z-50" src="/Background-21.png " alt="" />
       <Navbar />
       <HeroSec />
       <ThirdSection />
@@ -65,6 +66,7 @@ export default function Home() {
       <CaseStudies />
       <Section />
       <RequestSection />
+      <Footer />
     </>
   );
 }
