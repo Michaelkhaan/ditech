@@ -83,11 +83,11 @@ function Navbar() {
                 ) : null}
               </div>
               {dropdownVisible && activeDropdown === index && (
-                <ul className="w-52 border-l border-r border-b px-10 py-4 absolute -left-4">
+                <ul className="w-52 border-l border-r border-b px-10 py-4 absolute -left-4 bg-[#010a0a] bg-opacity-70 z-50">
                   {items?.subtitleItems?.map((subtitleItem, index) => (
                     <li
                       key={index}
-                      className="text-white text-lg tracking-wider font-bold hover:text-[#00fbf4] cursor-pointer transition-all duration-300 ease-in-out py-1 whitespace-nowrap"
+                      className="text-white text-lg tracking-wider font-bold hover:text-[#00fbf4] cursor-pointer transition-all duration-300 ease-in-out py-1 whitespace-nowrap "
                     >
                       {subtitleItem?.title}
                     </li>
