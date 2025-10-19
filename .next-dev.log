@@ -22,3 +22,4 @@ Image with src "/two-female.jpg" has legacy prop "objectFit". Did you forget to 
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
 Image with src "/young.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+ ✓ Compiled in 757ms (200 modules)
